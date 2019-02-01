@@ -34,24 +34,27 @@ sleep 3
 echo -e $G" [*] Setting up program..."
 echo -e $R" [*] Don't close the program!"
 sleep 3 
-mv sftools.zip $PREFIX/share
-cd $PREFIX/share
+cd /data/data/com.termux/files/usr/share
+mkdir stools
+cd $HOME/stools
+mv stools.zip /data/data/com.termux/files/usr/share/stools
 sleep 5
 echo
 echo -e $G" Extracting Files..."
+cd /data/data/com.termux/files/home/stools
 unzip stools.zip
 sleep 5
-cd stools/igtools
+cd igtools
 unzip node_modules.js
 sleep 5
 cd ..
-chmod +x 2e4h
-ln -s 2e4h $PREFIX/bin/2e4h
+chmod 777 2e4h
+mv 2e4h $PREFIX/bin/2e4h
 echo -   "  [*] Cleaning junk file..."
 sleep 2
 cd ..
 rm -f stools.zip
-cd stools/igtools
+cd igtools
 rm -f node_modules.zip
 sleep 2
 echo
