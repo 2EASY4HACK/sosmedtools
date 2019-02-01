@@ -1,0 +1,66 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+##Author : InYourHeart
+##Team   : 2Easy4HackTeam
+
+#colors
+R='\033[1;31m'
+B='\033[1;34m'
+C='\033[0;36m'
+G='\033[1;32m'
+W='\033[1;37m'
+Y='\033[1;33m'
+
+DIR="$(pwd)"
+date="$(date)"
+time="$(date +%T)"
+clear
+echo
+echo -e $B"----------------------"
+echo -e $R"Author :$G InYourHeart"
+echo -e $R"Team   :$C 2Easy4Hack"
+echo -e $R"Tools  :$B SosmedTools"
+echo -e $R"Version:$G V2.0"
+echo -e $R"Date   :$Y 01/02/2019"
+echo -e $R"Time   :$B 12.01.20 WIB"
+echo -e $B"----------------------"
+echo -e $R" [#] Editing this banner doesn't make you a programmer :)"
+echo
+
+echo
+echo -e $Y"     Starting At $time "
+echo -e $G" [*] Installing SosmedTools..."
+sleep 3
+echo -e $G" [*] Setting up program..."
+echo -e $R" [*] Don't close the program!"
+sleep 3 
+mv sftools.zip $PREFIX/share
+cd $PREFIX/share
+sleep 5
+echo
+echo -e $G" Extracting Files..."
+unzip stools.zip
+sleep 5
+cd stools/igtools
+unzip node_modules.js
+sleep 5
+cd ..
+chmod +x 2e4h
+ln -s 2e4h $PREFIX/bin/2e4h
+echo -   "  [*] Cleaning junk file..."
+sleep 2
+cd ..
+rm -f stools.zip
+cd stools/igtools
+rm -f node_modules.zip
+sleep 2
+echo
+echo -e $G" [*] Setting up finished"
+echo -e $G" [*] Now you can lauch the program just typing... ($B 2e4h $G)"
+sleep 1
+echo -e $G" [*] Enjoy this tools :) "
+echo -e $G" [*] Support 2Easy4Hack Team "
+sleep 1
+echo -e $R" [*] Exiting the program... "
+sleep 3
+exit
