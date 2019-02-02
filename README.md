@@ -3,4 +3,6 @@
 
 
 # STOOLS ( Sosmed Tools )
-Stools is a social media tools.
+Stools is a social media tools.include all tools Social Media.
+# Install On Android (Termux)
+
