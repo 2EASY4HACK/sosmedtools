@@ -44,7 +44,7 @@ echo -e $G" Extracting Files..."
 cd /data/data/com.termux/files/usr/share/stools
 unzip stools.zip
 sleep 5
-cd igtools
+cd /data/data/com.termux/files/usr/share/stools/igtools
 unzip node_modules.js
 sleep 5
 cd ..
@@ -52,9 +52,9 @@ chmod 777 2e4h
 mv 2e4h $PREFIX/bin/2e4h
 echo -   "  [*] Cleaning junk file..."
 sleep 2
-cd ..
+cd /data/data/com.termux/files/usr/share/stools
 rm -f stools.zip
-cd igtools
+cd /data/data/com.termux/files/usr/share/stools/igtools
 rm -f node_modules.zip
 sleep 2
 echo
