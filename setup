@@ -45,7 +45,7 @@ cd /data/data/com.termux/files/usr/share/stools
 unzip stools.zip
 sleep 5
 cd /data/data/com.termux/files/usr/share/stools/igtools
-unzip node_modules.js
+unzip node_modules.zip
 sleep 5
 cd ..
 chmod 777 2e4h
