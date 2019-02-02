@@ -41,7 +41,7 @@ mv stools.zip /data/data/com.termux/files/usr/share/stools
 sleep 5
 echo
 echo -e $G" Extracting Files..."
-cd /data/data/com.termux/files/home/stools
+cd /data/data/com.termux/files/usr/share/stools
 unzip stools.zip
 sleep 5
 cd igtools
