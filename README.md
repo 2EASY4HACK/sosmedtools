@@ -5,4 +5,12 @@
 # STOOLS ( Sosmed Tools )
 Stools is a social media tools.include all tools Social Media.
 # Install On Android (Termux)
-
+```
+$ pkg update
+$ git clone https://github.com/2EASY4HACK/stools
+$ cd stools
+$ chmod +x setup
+$ bash setup
+```
+# Beta Version 
+Let's Join Fo 
