@@ -5,7 +5,7 @@ Stools is a social media tools.include all tools Social Media.
 # Install On Android (Termux)
 ```
 $ pkg update
-$ git clone https://github.com/2EASY4HACK/stools
+$ git clone https://git.io/fhHe0
 $ cd stools
 $ chmod +x setup
 $ bash setup
