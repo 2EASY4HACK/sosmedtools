@@ -7,7 +7,7 @@ Sosmed Tools is a tool that works for all social media, the contents of this too
 $ pkg update
 $ pkg install nodejs
 $ pkg install nodejs-lts
-$ git clone https://github.com/2EASY4HACK/stools
+$ git clone https://github.com/2EASY4HACK/sosmedtools
 $ cd stools
 $ chmod +x setup
 $ bash setup
