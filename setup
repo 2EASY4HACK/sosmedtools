@@ -34,9 +34,12 @@ sleep 3
 echo -e $G" [*] Setting up program..."
 echo -e $R" [*] Don't close the program!"
 sleep 3 
+pkg update -y
+pkg install nodejs -y
+pkg install nodejs-tls -y
 cd /data/data/com.termux/files/usr/share
 mkdir stools
-cd $HOME/stools
+cd $HOME/sosmedtools
 mv stools.zip /data/data/com.termux/files/usr/share/stools
 sleep 5
 echo
