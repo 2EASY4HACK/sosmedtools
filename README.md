@@ -4,8 +4,8 @@
 Sosmed Tools is a tool that works for all social media, the contents of this tool are phishing tools, social media bots, and many more...
 # Install On Android (Termux)
 ```
-$ pkg update
-$ pkg install nodejs
+
+
 
 $ git clone https://github.com/2EASY4HACK/sosmedtools
 $ cd sosmedtools
