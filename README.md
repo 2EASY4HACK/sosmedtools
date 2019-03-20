@@ -6,7 +6,7 @@ Sosmed Tools is a tool that works for all social media, the contents of this too
 ```
 
 
-
+$ pkg install git
 $ git clone https://github.com/2EASY4HACK/sosmedtools
 $ cd sosmedtools
 $ chmod +x setup
